@@ -60,3 +60,13 @@ body {
     place-items: center; /* Centers both horizontally and vertically */
     /* margin-left: 15px; */
 }
+
+
+.navbar-background {
+    background: #E9EDF4 !important;
+    transition: 1s ease-in;
+  }
+  
+  .navbar-background.scrolled {
+    background: #fff !important;
+  }
