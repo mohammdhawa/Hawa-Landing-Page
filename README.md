@@ -4,6 +4,10 @@
 
 This project is a business solutions website called **HAWA**, built using HTML, CSS, JavaScript, and Bootstrap. The website features a clean and modern design to showcase services and expertise in digital marketing, design, and development. It is fully responsive and includes various sections like a navigation bar, banners, services, statistics, and FAQs.
 
+## Project Demo
+
+![demo](demo.png)
+
 ## Features
 
 - **Responsive Design**: The site is built with Bootstrap, ensuring it works well on all screen sizes, from mobile to desktop.
