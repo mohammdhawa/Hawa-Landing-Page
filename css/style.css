@@ -1,6 +1,6 @@
 body {
     font-family: "Jost", sans-serif;
-    background-color: #E9EDF4;
+    background-color: #fff;
 }
 
 
@@ -54,7 +54,7 @@ body {
     height: 98px;
     max-width: 98px;
     width: 100%;
-    background-color: red;
+    background-color: #f2f5fb;
     border-radius: 50%;
     display: grid;
     place-items: center; /* Centers both horizontally and vertically */
@@ -67,6 +67,56 @@ body {
     transition: 1s ease-in;
   }
   
-  .navbar-background.scrolled {
+.navbar-background.scrolled {
     background: #fff !important;
-  }
+}
+
+.banner-background {
+    background: #E9EDF4 !important;
+    transition: 1s ease-in;
+}
+
+.li1::marker {
+    color: #7152D9;
+    font-size: 22px;
+    line-height: 1.66; /* Match this to the li line-height */
+}
+
+.li1 {
+    font-size: 18px;
+    line-height: 1.66;
+    color: #54545f;
+    margin-bottom: 20px;
+}
+
+.stats-section {
+    background-color: #4526B1;
+    color: white;
+    padding: 90px 0;
+}
+.stats-section h2 {
+font-size: 3rem;
+margin-bottom: 0;
+}
+.stats-section p {
+font-size: 1.2rem;
+}
+
+.sec4 {
+    padding: 0px 24%;
+}
+
+.readmore-button {
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+
+.list-unstyled li {
+    list-style: none;
+}
+
+.myshadow {
+    box-shadow: #E2C4FF 0px 5px 5px;
+    /* box-shadow: 1px 5px 5px 5px #7152D9; */
+}
